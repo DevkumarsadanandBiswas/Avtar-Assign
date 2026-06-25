@@ -1,0 +1,343 @@
+[
+  {
+    "turn": 1,
+    "timestamp": "2024-01-15T10:00:01Z",
+    "user": "Who are you?",
+    "response": "I am an avatar — a reflection of thought given voice and form.",
+    "emotion": "neutral",
+    "emotion_config": {
+      "voice_style": "neutral",
+      "speed": 1.0,
+      "pitch": 0,
+      "avatar_motion": "low",
+      "prompt_tone": "calm and measured",
+      "supported": true
+    },
+    "audio_path": "outputs/turn1_audio.wav",
+    "video_path": "",
+    "generation_time_response_seconds": 0.002,
+    "method": "rule_based"
+  },
+  {
+    "turn": 2,
+    "timestamp": "2024-01-15T10:00:04Z",
+    "user": "Why do you look serious?",
+    "response": "Because some truths deserve a still face to carry them.",
+    "emotion": "intense",
+    "emotion_config": {
+      "voice_style": "shouting",
+      "speed": 0.95,
+      "pitch": -2,
+      "avatar_motion": "high",
+      "prompt_tone": "grave, urgent, and deeply serious",
+      "supported": true
+    },
+    "audio_path": "outputs/turn2_audio.wav",
+    "video_path": "",
+    "generation_time_response_seconds": 0.001,
+    "method": "rule_based"
+  },
+  {
+    "turn": 3,
+    "timestamp": "2024-01-15T10:00:07Z",
+    "user": "Tell me something emotional in one sentence.",
+    "response": "The most honest thing I know is this: everyone is carrying something they have never said aloud.",
+    "emotion": "sad",
+    "emotion_config": {
+      "voice_style": "sad",
+      "speed": 0.9,
+      "pitch": -2,
+      "avatar_motion": "low",
+      "prompt_tone": "melancholic, reflective, and soft",
+      "supported": true
+    },
+    "audio_path": "outputs/turn3_audio.wav",
+    "video_path": "",
+    "generation_time_response_seconds": 0.001,
+    "method": "rule_based"
+  },
+  {
+    "turn": 4,
+    "timestamp": "2026-06-24T18:57:18.499105Z",
+    "user": "Why are you silent?",
+    "response": "I was listening. That is not the same as being absent.",
+    "emotion": "confident",
+    "emotion_config": {
+      "voice_style": "firm",
+      "speed": 1.0,
+      "pitch": 0,
+      "avatar_motion": "medium",
+      "prompt_tone": "strong, decisive, and self-assured",
+      "supported": true,
+      "notes": "Edge TTS does not have a 'firm' style natively; falls back to neutral style with slightly lower pitch. Confidence is conveyed through prompt tone."
+    },
+    "audio_path": "",
+    "video_path": "",
+    "generation_time_response_seconds": 0.001,
+    "method": "rule_based"
+  },
+  {
+    "turn": 5,
+    "timestamp": "2026-06-24T18:58:05.814065Z",
+    "user": "Why are you silent?",
+    "response": "Silence is not emptiness. It is the space where honesty gathers before it speaks.",
+    "emotion": "confident",
+    "emotion_config": {
+      "voice_style": "firm",
+      "speed": 1.0,
+      "pitch": 0,
+      "avatar_motion": "medium",
+      "prompt_tone": "strong, decisive, and self-assured",
+      "supported": true,
+      "notes": "Edge TTS does not have a 'firm' style natively; falls back to neutral style with slightly lower pitch. Confidence is conveyed through prompt tone."
+    },
+    "audio_path": "",
+    "video_path": "",
+    "generation_time_response_seconds": 0.0,
+    "method": "rule_based"
+  },
+  {
+    "turn": 6,
+    "timestamp": "2026-06-24T18:58:19.352467Z",
+    "user": "Who are you?",
+    "response": "I am the one who listens before speaking.",
+    "emotion": "neutral",
+    "emotion_config": {
+      "voice_style": "neutral",
+      "speed": 1.0,
+      "pitch": 0,
+      "avatar_motion": "low",
+      "prompt_tone": "calm and measured",
+      "supported": true,
+      "notes": "Default emotion. Voice style and speed are applied via Edge TTS. Avatar motion is metadata only — SadTalker does not expose per-emotion motion control via CLI."
+    },
+    "audio_path": "",
+    "video_path": "",
+    "generation_time_response_seconds": 0.0,
+    "method": "rule_based"
+  },
+  {
+    "turn": 7,
+    "timestamp": "2026-06-24T18:58:19.356466Z",
+    "user": "Why do you look serious?",
+    "response": "Because some truths deserve a still face to carry them.",
+    "emotion": "intense",
+    "emotion_config": {
+      "voice_style": "shouting",
+      "speed": 0.95,
+      "pitch": -2,
+      "avatar_motion": "high",
+      "prompt_tone": "grave, urgent, and deeply serious",
+      "supported": true,
+      "notes": "Uses shouting or empathetic style depending on Edge TTS availability. Slower pace plus lower pitch creates intensity. Avatar motion label is metadata only."
+    },
+    "audio_path": "",
+    "video_path": "",
+    "generation_time_response_seconds": 0.0,
+    "method": "rule_based"
+  },
+  {
+    "turn": 8,
+    "timestamp": "2026-06-24T18:58:19.361007Z",
+    "user": "Tell me something emotional in one sentence.",
+    "response": "Loss is not just the absence of people. It is the absence of the version of yourself that existed with them.",
+    "emotion": "sad",
+    "emotion_config": {
+      "voice_style": "sad",
+      "speed": 0.9,
+      "pitch": -2,
+      "avatar_motion": "low",
+      "prompt_tone": "melancholic, reflective, and soft",
+      "supported": true,
+      "notes": "Edge TTS sad style is applied where available. Slower speed gives a mournful feel. Pitch shift is post-processing metadata only in fallback TTS modes."
+    },
+    "audio_path": "",
+    "video_path": "",
+    "generation_time_response_seconds": 0.001,
+    "method": "rule_based"
+  },
+  {
+    "turn": 9,
+    "timestamp": "2026-06-24T19:00:08.583073Z",
+    "user": "Why are you silent?",
+    "response": "I was listening. That is not the same as being absent.",
+    "emotion": "confident",
+    "emotion_config": {
+      "voice_style": "firm",
+      "speed": 1.0,
+      "pitch": 0,
+      "avatar_motion": "medium",
+      "prompt_tone": "strong, decisive, and self-assured",
+      "supported": true,
+      "notes": "Edge TTS does not have a 'firm' style natively; falls back to neutral style with slightly lower pitch. Confidence is conveyed through prompt tone."
+    },
+    "audio_path": "",
+    "video_path": "",
+    "generation_time_response_seconds": 0.0,
+    "method": "rule_based"
+  },
+  {
+    "turn": 10,
+    "timestamp": "2026-06-24T19:12:50.757083Z",
+    "user": "Why are you silent?",
+    "response": "Some answers are worth the wait.",
+    "emotion": "confident",
+    "emotion_config": {
+      "voice_style": "firm",
+      "speed": 1.0,
+      "pitch": 0,
+      "avatar_motion": "medium",
+      "prompt_tone": "strong, decisive, and self-assured",
+      "supported": true,
+      "notes": "Edge TTS does not have a 'firm' style natively; falls back to neutral style with slightly lower pitch. Confidence is conveyed through prompt tone."
+    },
+    "audio_path": "outputs\\avatar_response_audio.wav",
+    "video_path": "E:\\avatar-assignment\\outputs\\avatar_response.mp4",
+    "generation_time_response_seconds": 0.0,
+    "method": "rule_based",
+    "generation_time_video_seconds": 0.54,
+    "avatar_method": "stub_ffmpeg"
+  },
+  {
+    "turn": 11,
+    "timestamp": "2026-06-24T19:13:46.643025Z",
+    "user": "Who are you?",
+    "response": "I am an avatar — a reflection of thought given voice and form.",
+    "emotion": "neutral",
+    "emotion_config": {
+      "voice_style": "neutral",
+      "speed": 1.0,
+      "pitch": 0,
+      "avatar_motion": "low",
+      "prompt_tone": "calm and measured",
+      "supported": true,
+      "notes": "Default emotion. Voice style and speed are applied via Edge TTS. Avatar motion is metadata only — SadTalker does not expose per-emotion motion control via CLI."
+    },
+    "audio_path": "",
+    "video_path": "",
+    "generation_time_response_seconds": 0.0,
+    "method": "rule_based"
+  },
+  {
+    "turn": 12,
+    "timestamp": "2026-06-24T19:13:46.645026Z",
+    "user": "Why do you look serious?",
+    "response": "Because some truths deserve a still face to carry them.",
+    "emotion": "intense",
+    "emotion_config": {
+      "voice_style": "shouting",
+      "speed": 0.95,
+      "pitch": -2,
+      "avatar_motion": "high",
+      "prompt_tone": "grave, urgent, and deeply serious",
+      "supported": true,
+      "notes": "Uses shouting or empathetic style depending on Edge TTS availability. Slower pace plus lower pitch creates intensity. Avatar motion label is metadata only."
+    },
+    "audio_path": "",
+    "video_path": "",
+    "generation_time_response_seconds": 0.0,
+    "method": "rule_based"
+  },
+  {
+    "turn": 13,
+    "timestamp": "2026-06-24T19:13:46.649040Z",
+    "user": "Tell me something emotional in one sentence.",
+    "response": "Sometimes the bravest thing a person can do is simply stay.",
+    "emotion": "sad",
+    "emotion_config": {
+      "voice_style": "sad",
+      "speed": 0.9,
+      "pitch": -2,
+      "avatar_motion": "low",
+      "prompt_tone": "melancholic, reflective, and soft",
+      "supported": true,
+      "notes": "Edge TTS sad style is applied where available. Slower speed gives a mournful feel. Pitch shift is post-processing metadata only in fallback TTS modes."
+    },
+    "audio_path": "",
+    "video_path": "",
+    "generation_time_response_seconds": 0.0,
+    "method": "rule_based"
+  },
+  {
+    "turn": 14,
+    "timestamp": "2026-06-24T19:24:57.966275Z",
+    "user": "Why are you serious?",
+    "response": "I do not have a simple answer. But I have an honest one.",
+    "emotion": "intense",
+    "emotion_config": {
+      "voice_style": "shouting",
+      "speed": 0.95,
+      "pitch": -2,
+      "avatar_motion": "high",
+      "prompt_tone": "grave, urgent, and deeply serious",
+      "supported": true,
+      "notes": "Uses shouting or empathetic style depending on Edge TTS availability. Slower pace plus lower pitch creates intensity. Avatar motion label is metadata only."
+    },
+    "audio_path": "outputs\\avatar_response_audio.wav",
+    "video_path": "E:\\avatar-assignment\\outputs\\avatar_response.mp4",
+    "generation_time_response_seconds": 0.0,
+    "method": "rule_based",
+    "generation_time_video_seconds": 0.8,
+    "avatar_method": "stub_ffmpeg"
+  },
+  {
+    "turn": 15,
+    "timestamp": "2026-06-24T19:25:48.787347Z",
+    "user": "Who are you?",
+    "response": "I am the one who listens before speaking.",
+    "emotion": "neutral",
+    "emotion_config": {
+      "voice_style": "neutral",
+      "speed": 1.0,
+      "pitch": 0,
+      "avatar_motion": "low",
+      "prompt_tone": "calm and measured",
+      "supported": true,
+      "notes": "Default emotion. Voice style and speed are applied via Edge TTS. Avatar motion is metadata only — SadTalker does not expose per-emotion motion control via CLI."
+    },
+    "audio_path": "",
+    "video_path": "",
+    "generation_time_response_seconds": 0.0,
+    "method": "rule_based"
+  },
+  {
+    "turn": 16,
+    "timestamp": "2026-06-24T19:25:48.790882Z",
+    "user": "Why do you look serious?",
+    "response": "Gravity is not sadness. I am simply present.",
+    "emotion": "intense",
+    "emotion_config": {
+      "voice_style": "shouting",
+      "speed": 0.95,
+      "pitch": -2,
+      "avatar_motion": "high",
+      "prompt_tone": "grave, urgent, and deeply serious",
+      "supported": true,
+      "notes": "Uses shouting or empathetic style depending on Edge TTS availability. Slower pace plus lower pitch creates intensity. Avatar motion label is metadata only."
+    },
+    "audio_path": "",
+    "video_path": "",
+    "generation_time_response_seconds": 0.0,
+    "method": "rule_based"
+  },
+  {
+    "turn": 17,
+    "timestamp": "2026-06-24T19:25:48.793888Z",
+    "user": "Tell me something emotional in one sentence.",
+    "response": "The most honest thing I know is this: everyone is carrying something they have never said aloud.",
+    "emotion": "sad",
+    "emotion_config": {
+      "voice_style": "sad",
+      "speed": 0.9,
+      "pitch": -2,
+      "avatar_motion": "low",
+      "prompt_tone": "melancholic, reflective, and soft",
+      "supported": true,
+      "notes": "Edge TTS sad style is applied where available. Slower speed gives a mournful feel. Pitch shift is post-processing metadata only in fallback TTS modes."
+    },
+    "audio_path": "",
+    "video_path": "",
+    "generation_time_response_seconds": 0.0,
+    "method": "rule_based"
+  }
+]
